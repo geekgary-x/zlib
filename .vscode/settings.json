@@ -1,0 +1,6 @@
+{
+    "cmake.configureOnEdit": false,
+    "cmake.configureArgs" : [
+        "-DCMAKE_INSTALL_PREFIX:PATH=Z:/Program Files/zlib",
+    ],
+}
