@@ -12,7 +12,7 @@ rem 进入生成目录
 cd %BUILD_DIR%
 
 rem 使用 CMake 生成 VS 项目文件
-cmake -G "Visual Studio 17 2022" .. -DCMAKE_INSTALL_PREFIX:PATH=Z:/Program Files/zlib -DCMAKE_BUILD_TYPE=Debug
+cmake -G "Visual Studio 17 2022" .. -DCMAKE_INSTALL_PREFIX:PATH="D:/Program Files/zlib" -DCMAKE_BUILD_TYPE=Debug
 
 rem 运行编译
 cmake --build . --target install --config Debug
@@ -29,7 +29,7 @@ rem 进入生成目录
 cd %BUILD_DIR%
 
 rem 使用 CMake 生成 VS 项目文件
-cmake -G "Visual Studio 17 2022" .. -DCMAKE_INSTALL_PREFIX:PATH=Z:/Program Files/zlib -DCMAKE_BUILD_TYPE=Release
+cmake -G "Visual Studio 17 2022" .. -DCMAKE_INSTALL_PREFIX:PATH="D:/Program Files/zlib" -DCMAKE_BUILD_TYPE=Release
 
 rem 运行编译
 cmake --build . --target install --config Release
