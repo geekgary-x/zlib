@@ -25,3 +25,5 @@
 
 .DS_Store
 [Bb]uild
+[Bb]uild-debug
+[Bb]uild-release
